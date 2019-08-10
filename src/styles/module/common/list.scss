@@ -1,0 +1,95 @@
+.list{
+    margin:0;
+    background: #fff;
+        h2{
+            height: .44rem;
+            text-align: left;
+            padding: 0 .2rem;
+            line-height: .44rem;
+            background: #fff;
+            border-bottom: none;
+            color: #333;
+            font-size: .18rem;
+        }
+        .list-hot,.list-parts{
+            margin-top:.06rem; 
+            display: table;
+            width: 100%;
+            .row{
+                display: table-row;
+            .cell{
+                background: #fff;
+                vertical-align: top;
+                width: 50%;
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+                display: table-cell;
+            }
+                .cell:first-child{
+                    padding-right:3px;
+                }
+                .cell:last-child{
+                    padding-left: 3px;
+                }
+
+                a{
+                    padding-top: 0;
+                    padding-bottom: .06rem;
+                    display: block;
+                        img{
+                            background: rgb(244,243,239);
+                            vertical-align: middle;
+                            width: auto;
+                            max-width: 100%;
+                        }
+                     .cell-text{
+                        text-align: left;
+                        padding-left: .1rem;
+                        margin-top: .1rem;
+                        box-sizing: border-box;
+                        line-height: .2rem;
+                        font-size: .16rem;
+                            span:last-child{
+                                color: #8e8d8d !important;
+                                font-size: .12rem;
+                            }
+                            .phone-name{
+                                color: #000 !important;
+                                font-size: .16rem;
+                                font-weight: 700;
+                                font-family: "inherit";
+                                display: block;
+                            }
+                         }
+                        .phone-price{
+                            position: relative;
+                            margin-bottom: .1rem;
+                            margin-top: .04rem;
+                            text-align: left;
+                            padding-left: .04rem;
+                            color: #ef4f3d;
+                            width: 100%;
+                            >span{
+                                font-weight: 300;
+                                font-size: .14rem;
+                                display: inline-block;
+                            span>span{
+                                font-weight: 500;
+                                font-size: .16rem;
+                                margin-right: 4px;
+                            }   
+                            .price-cancel {
+                                font-size: .14rem !important;
+                                font-weight: 300 !important;
+                                color: #8e8d8d !important;
+                                text-decoration:line-through;
+                            }                            
+                         }
+                    }
+                }
+            }
+        }
+   
+    }
+

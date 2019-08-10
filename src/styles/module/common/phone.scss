@@ -1,0 +1,105 @@
+html,body{
+    font-family: Helvetica;
+    overflow-y:scroll;  
+}
+
+header{
+    position: relative;
+    @include border(0 0 1px 0) ;
+    background-color: #fff;
+    z-index: 99;
+    height: .5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span,i{
+        font-size: .16rem;
+        color: #464646;
+    }
+}
+.products{
+    background: #fff;
+    ul{
+        display: flex;
+        li{
+            width: 21%;
+            text-align: center;
+            height: .4rem;
+            line-height: .4rem;
+            vertical-align: middle;
+            color: red;
+            span{
+                color:black;
+                &.active{
+                    color: rgb(255,77,77)!important;
+                }
+            }
+        }
+        li:last-child{
+            width: 37%;
+            text-align: right;
+            padding-right: .2rem;
+        }
+    }
+}
+.wrap{
+    overflow: hidden;
+    .phone-list,.parts-list{
+        background: rgb(239,239,239);
+        .phone-item{
+            height: 1.12rem;
+            margin-bottom: 1px;
+            background: #fff;
+            @include border(0 0 1px 0) ;
+            vertical-align: middle;
+            }
+            .phone-img{
+                float: left;
+                width: 30%;
+                margin: 0px!important;
+                display: flex;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+                img{
+                    height:85%;
+                    width:85%;
+                    max-width: 100%;
+                    vertical-align: middle;
+                    padding-right: .1rem;
+                }
+            } 
+            .phone-desc{
+                float: right;
+                width: 70%;
+                line-height: .18rem;
+                margin: 0px!important;
+                font-size: 1.25em;
+                height: 100%;
+                padding: .11rem 0;
+                box-sizing: border-box;
+                .title{
+                    color: #000;
+                    font-size: .13rem;
+                    margin: 0;
+                    padding: 0;
+                    padding-right: .1rem;
+                    text-align: left;
+                    background: inherit;
+                    font-weight: 700;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                del{
+                    text-decoration: line-through ;
+                }
+                .price{
+                    margin-top: 0.08rem;
+                    color: #e8320d;
+                    font-size: .16rem;
+                }
+            } 
+        }
+    }
+

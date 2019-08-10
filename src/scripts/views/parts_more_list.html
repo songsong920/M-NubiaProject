@@ -1,0 +1,17 @@
+{{each parts}}
+<li class="phone-item" >
+        <a href="">
+            <div class="phone-img">
+                    <img src="//oss.static.nubia.cn/{{$value.image}}" alt="">
+            </div>
+            <div class="phone-desc">
+                <div class="title">{{$value.product_name}} {{$value.color_name}} {{$value.product_name}}</div>
+                <div class="small">&nbsp;</div>
+                <div class="price">
+                    <span style="font-size: .12rem; color: rgb(255, 94, 94);"><i class="priceIcon">¥</i>{{$value.price}}
+                    <del style="font-size: .10rem; color: rgb(139, 139, 139);">{{$value.origin_price}}</del></span>
+                </div>
+            </div>
+        </a>
+    </li>
+{{/each}}

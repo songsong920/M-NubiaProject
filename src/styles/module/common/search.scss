@@ -1,0 +1,46 @@
+.search {
+        top:0;
+        left: 0;
+        padding: 0.1rem 0.15rem;
+        display: flex;
+        height: .49rem;
+        line-height: .49rem;
+        color: #fff;
+        background: #fff;
+        font-size: .18rem;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 999;
+        width:100%;
+      .searchLogo{
+            margin-right: 0.05rem;
+            width: 40%;
+            height: .1rem;
+            background: url(https://shop-soa-static.nubia.com/images/logo_black.png) 0 center no-repeat;
+            background-size: cover;
+      }
+      .searchBox{
+            width: 78%;
+            height: .35rem;
+            border-radius: .2rem;
+            font-size: .14rem;
+            padding-left: .4rem;
+            background: rgb(248,248,248) url(https://oss.static.nubia.cn/active/5c73876ac212759.png)no-repeat 12px center;
+            background-size: .2rem;
+            line-height: .35rem;
+            color: rgb(115,115,115);
+      }
+      .searchMsg{
+            width: 12%;
+            height: .4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 0.07rem;
+            position: relative;
+            color: #ccc;
+            font-size: .20rem;
+            font-weight: bold;
+        }
+    }

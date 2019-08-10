@@ -1,0 +1,18 @@
+{{each data}}
+<div class="list_cate">
+            <a href="#" class="title">
+                <p class="telphone">{{$value.cate_name}}</p>
+            </a>
+    
+            {{each $value.infos}}
+            <ul>
+                <li><a href="">
+                      <img src="//oss.static.nubia.cn/{{$value.image_id}}">
+                        <p>{{$value.product_name}} {{$value.color_name}}</p>
+                    </a>
+                  </li>
+            </ul>
+             {{/each}}
+            <p><a href="">查看更多{{$value.cate_name}}</a></p>
+        </div>
+        {{/each}}

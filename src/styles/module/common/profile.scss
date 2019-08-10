@@ -1,0 +1,56 @@
+.user_center{
+   .header{
+        padding-bottom: 55px;
+        overflow: hidden;
+        background: url("https://oss.static.nubia.cn/upload/5af40b7c5203997.png") no-repeat center center;
+        background: black;
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+        height: 124px;
+        background-size: 100% 100%;
+        position: relative;
+    
+   }
+   .user-img{
+        background: url(http://oss.static.nubia.cn/upload/59c0c0948d26a56.png) center center  no-repeat;
+        width: .6rem;
+        height: .6rem;
+        border-radius: 50%;
+        position: absolute;
+        left: .22rem;
+        bottom: .25rem;
+        border: 2px solid #ccc;
+   }
+   .user{
+        position: absolute;
+        left: .9rem;
+        bottom: .22rem;
+        height: .6rem;
+        color: #fff;
+        font-size: 16px;
+        line-height: .26rem;
+        .name{
+            max-width: 1.5rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: wrap;
+            height: .26rem;
+            color:white;
+        }
+        .member{
+            height: 20px;
+            border-radius: 12px;
+            font-size: 12px;
+            padding-left: 20px;
+            text-align: center;
+            line-height: 18px;
+            padding-right: 10px;
+            border: 1px solid #ccc;
+            color: #ccc;
+            background: url(//oss.static.nubia.cn/upload/5af40b7c415d290.png)no-repeat 5px center;
+            background-size: 18px;
+        }
+            
+   }
+}

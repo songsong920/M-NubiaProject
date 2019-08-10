@@ -1,0 +1,19 @@
+{{each list3}}
+<div class="news-section">
+        <a href="">
+            <img src="https://oss.static.nubia.cn/{{$value.introImgWap}}"
+                alt="{{$value.metaDescription}}">
+        </a>
+        <div class="news-wrap">
+            <a href="">
+                <h3 style="color:#4f4f4f">{{$value.title}}</h3>
+                <p class="news-info">{{$value.description}}</p>
+            </a>
+            <p class="tips">
+                <span>{{$value.pubtime}}</span>
+                <span>   <i class="yo-ico">&#xe663;</i>{{$value.clicks}}</span>
+            </p>
+        </div>
+    </div>
+    
+    {{/each}}
